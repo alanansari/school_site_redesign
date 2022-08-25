@@ -1,0 +1,339 @@
+html{
+	scroll-behavior: smooth;
+}
+body{
+	font-family: Terbuchet MS;
+  background-color: white;
+	margin: 0px;
+	padding: 0px;
+}
+.cont{
+  min-height:650px;
+  text-align:left;
+  color:#000000;
+  
+}
+.cont1{
+  min-height:650px;
+  background:url('./img/abc.jpg');
+  background-attachment:fixed;
+  background-size:cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  position: relative;
+}
+.cont2{
+  min-height:460px;
+  background:url('./img/efg.jpg');
+  text-align:left;
+  color:#000000;
+  background-attachment:fixed;
+  background-size:cover;
+  background-position:bottom right;
+  background-repeat: no-repeat;
+  position: relative;
+}
+.cont3{
+  min-height:450px;
+  background:url('./img/efg.jpg');
+  background-attachment:fixed;
+  background-size:cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  position: relative;
+}
+.cont4{
+  min-height:450px;
+  background:url('./img/galla.jpg');
+  background-attachment:fixed;
+  background-size:cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  position: relative;
+}
+.cont5{
+  min-height:450px;
+  background:url('./img/notice.jpg');
+  background-attachment:fixed;
+  background-size:cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  position: relative;
+}
+nav{
+	height: 20%;
+	width: 100%;
+  background-color: rgb(255,255,255);
+}
+nav a{
+	text-decoration: none;
+	color: black;
+}
+#logo{
+	padding-right: 200px;
+}
+nav li{
+    padding-right: 18px;
+    padding-top: 0px;
+    color: black;
+    display: inline;
+}
+.button{
+	text-decoration: none;
+	border: solid;
+	color: indigo;
+	border-color: indigo;
+  border-radius: 20px;
+	background-color: transparent;
+	padding: 10px 30px ;
+	text-align: center;
+	font-size: 15px;
+	cursor: pointer;
+	transition: transform .2s;
+}
+.button:hover{
+    background-color: rgba(13, 95, 226,0.5);
+    transform: scale(1.2);
+    color: white; 
+}
+#heading{
+	text-align: center;
+	margin: 200px 20px 30px;
+  padding: 10px 10px 20px;
+  background-color: rgba(50, 51, 53, 0.5);
+}
+.heading{
+  border: solid;
+  color: white;
+  border-color: indigo;
+  border-radius: 5px;
+  background-color:indigo;
+  text-align: center;
+}
+.container{
+	width: 80%;
+	overflow: hidden;
+	margin: auto;
+	display: inline;
+}
+.card {
+  box-shadow: 2px 4px 8px 0 rgba(0, 0, 0, 0.2);
+  background-color: white;
+  max-width: 300px;
+  float: left; 
+  text-align: center;
+  border-radius: 5px;
+  margin-right: 55px;
+  margin-left: 55px;
+  margin-bottom: 30px;
+  transition: transform .2s;
+}
+.card:hover{
+	box-shadow: 3px 8px 16px rgba(0, 0, 0, 0.4);
+	transform: scale(1.1);
+	cursor: pointer;
+}
+#showcase1{
+	margin:5px 5px 5px 5px;
+  background-color: rgb(211, 218, 229);
+  text-align: center;
+}
+#showcase2{
+	margin:55px 10px 55px 10px;
+}
+#showcase2 img{
+	border-radius: 5px 5px 0 0;
+}
+.cbseaward{
+  text-decoration: none;
+  border: solid;
+  color: white;
+  border-color: indigo;
+  border-radius: 5px;
+  background-color:indigo;
+  text-align: center;
+}
+.cbseaward2{
+  text-decoration: none;
+  color: black;
+  font-family: Monotype Corsiva;  
+  font-size: 25px;
+}
+.cbseaward3{
+  text-decoration: none;
+  border: solid;
+  color: indigo;
+  border-color: indigo;
+  border-radius: 10px;
+  background-color: #f7f4d2;
+  text-align: center;  
+}
+#cbse{
+  margin-left: 30px;
+  margin-right: 200px;
+}
+#cbse2{
+  margin-left: 200px;
+  margin-right: 30px;
+}
+.cbseaward4{
+  background-color: #e1e4ea;
+}
+.result{
+  box-shadow: 2px 4px 8px 0 rgba(0, 0, 0, 0.2);
+  background-color: white;
+  max-width: 300px;
+  float: left; 
+  text-align: center;
+  border-radius: 5px;
+  margin-right: 60px;
+  margin-left: 60px;
+  margin-bottom: 50px;
+}
+.result2{
+  background-color: #e1e4ea;  
+}
+.result3{
+  text-decoration: none;
+  border: solid;
+  color: indigo;
+  border-color: indigo;
+  border-radius: 10px;
+  background-color: #f7f4d2;
+  text-align: center;   
+}
+.result4{
+  text-decoration: none;
+  border: solid;
+  color: white;
+  border-color: indigo;
+  border-radius: 5px;
+  background-color:indigo;
+  text-align: center;
+}
+#awards{
+  min-height:450px;
+  background:url('./img/awards.jpg');
+  background-attachment:fixed;
+  background-size:cover;
+  background-position: bottom right;
+  background-repeat: no-repeat;
+  position: relative;
+}
+.awards{
+  background-color: #e1e4ea;  
+}
+.awards1{
+  text-decoration: none;
+  border: solid;
+  color: indigo;
+  border-color: indigo;
+  border-radius: 10px;
+  background-color: #f7f4d2;
+  text-align: center;  
+}
+.awards2{
+  text-decoration: none;
+  border: solid;
+  color: white;
+  border-color: indigo;
+  border-radius: 5px;
+  background-color:indigo;
+  text-align: center;
+}  
+}
+.awards3{
+  color: black;
+  font-family: Monotype Corsiva;  
+  font-size: 25px;
+}
+#current{
+  text-decoration: none;
+  border: solid;
+  color: white;
+  border-color: indigo;
+  border-radius: 20px;
+  background-color:indigo;
+}
+.co-curricular{
+  text-decoration: none;
+  color: black;
+  font-family: Monotype Corsiva;  
+  font-size: 30px;
+  background-color: #e1e4ea;
+}
+.co-curricular2{
+  text-decoration: none;
+  border: solid;
+  color: white;
+  border-color: indigo;
+  border-radius: 5px;
+  background-color:indigo;
+  text-align: center;
+}  
+#co-curricular2{
+  margin-left: 225px;
+  margin-right: 100px; 
+  margin-top: 30px;
+  margin-bottom: 20px; 
+}
+.images img{
+  height: 280px;
+  max-width: 430px;
+  float: left;
+  padding-left: 10px;
+  padding-right: 10px;
+  padding-bottom: 10px;
+  padding-top: 10px;
+}
+.contact{
+  text-decoration: none;
+  border: solid;
+  border-color: indigo;
+  border-radius: 10px;
+  background-color: transparent;
+  padding: 10px 30px ;
+  text-align: center;
+  margin-top: 10px;
+  margin-right: 10px;
+  margin-left: 10px;
+  margin-bottom: 10px;
+}
+.contact2{
+  text-decoration: none;
+  border: solid;
+  color: white;
+  border-color: indigo;
+  border-radius: 5px;
+  background-color:indigo;
+  text-align: center;
+}
+.contact3{
+  font-size: 35px;
+  color: indigo;
+ }
+.contact4{
+  font-size: 25px;
+  font-color: black;
+  font-family: Monotype Corsiva;
+} 
+#Contact{
+  text-decoration: none;
+  border: solid;
+  color: white;
+  border-color: indigo;
+  border-radius: 10px;
+  background-color:indigo;
+  text-align: center;
+}
+.notice{
+  text-align: center;
+  border: solid;
+  border-color: indigo;
+  color: black;
+  background-color: transparent;
+}
+.dark{
+  color: white;
+  background-color: indigo;
+}
